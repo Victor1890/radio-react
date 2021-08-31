@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.scss";
 
-function App() {
+// compoment
+import Radio from "./components/Radio";
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Super Radio Player</h1>
+      <h2>
+        Pincha un genero musical, escoje una estación, empieza a escuchar.
+      </h2>
+      <Radio />
     </div>
   );
-}
+};
 
 export default App;
