@@ -2,7 +2,7 @@ import { useState } from "react";
 import AudioPlayer from "react-h5-audio-player";
 
 // Components
-import Filter from "../Filter/index";
+import Filter from "../Filter";
 import Spinner from "../Spinner/index";
 import Card from "../Card";
 
